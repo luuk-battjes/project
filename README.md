@@ -1,4 +1,6 @@
 # Learning how to rust, using README as notepad :O
+Using https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html as guide!
+
 This whole project is generated using cargo.
 Cargo is the rust package manager it handles packages called dependencies.
 To generate a new cargo project:
@@ -7,10 +9,10 @@ To generate a new cargo project:
 This generates the following:
 
 ### Cargo.lock
-Holds all the dependencies of your dependencies.
+Holds all the dependencies of your crates.
 
 ### Cargo.toml 
-Holds your dependencies and basic project configuration.
+Holds your crates and basic project configuration.
 
 ### target
 Holds code generated and used by cargo e.g the executable.
@@ -101,4 +103,9 @@ warning: `guessing_game` (bin "guessing_game") generated 1 warning
 References are created with the `&` symbol, and are immutable by default.
 
 For some reason it is good to change the input to a mutable reference, this has to do with performance i don't know why tho.
+
+### Library crates & Binary crates
+Library crates are crates that canot be run on their own, They contain code intended to be used in other programs.
+
+Binary crates contain code that is executable so this project is a binary crate.
 

@@ -4,17 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# Web framework for rust.
-axum = "0.8.7"
-
-# Async runtime for rust.
-tokio = { version = "1.0", features = ["full"] }
-
-# Middleware and utilities.
-tower = "0.5"
-
-# HTTTP server and client library.
-hyper = "1.8"
-
-# Serialization library for JSON handling.
-serde = { version = "1.0", features = ["derive"] }
+rand = "0.9.2"
