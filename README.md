@@ -1,3 +1,4 @@
+# Learning how to rust, using README as notepad :O
 This whole project is generated using cargo.
 Cargo is the rust package manager it handles packages called dependencies.
 To generate a new cargo project:
